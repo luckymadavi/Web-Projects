@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    
+    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img id="logo" src="lucky logo.jpeg"class="navelement">
+                <ul id="tools">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">Contact</a></li>
+                 
+                </ul>
+            </nav>
+
+            <div class="headertext">
+                  <p>Excel Master</p>
+            <h1 >hello, i'm <span>L</span>MX <br>
+                     glat to meet you...!
+            </h1>
+            </div>
+          
+        </div>
+    </div>
+
+<!-- -------------About-------------- -->
+
+   <div id="about">
+    <div class="container"> 
+        <div class="row">
+            <div class="about-colume-1">
+                <img src="grey handsom lucky.jpeg"  alt="photo">
+            </div>
+            <div class="about-colume-2">
+                <h1 class="sub-title">About me</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem rerum consequatur vel corporis, sapiente vitae voluptatibus omnis facilis laudantium dolor nostrum, ullam recusandae accusantium deserunt aliquid excepturi libero mollitia aperiam.
+                Iure maxime enim nihil velit aspernatur beatae, repellendus culpa, minus quibusdam magni, non cumque laudantium omnis eveniet corporis veritatis. Placeat dolor quaerat magnam consequatur laboriosam saepe, nihil voluptatum cumque! Modi.
+                Aut laboriosam dolorem voluptas temporibus incidunt odit id eos consequuntur debitis aspernatur impedit nemo sunt, facilis excepturi cumque enim ullam tenetur alias asperiores non culpa totam. Voluptates, natus iure. Omnis.</p>
+                
+                
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>  <!-- onclick="opentab('skills')" This funcion use to perform click event-->
+                    <p class="tab-links" onclick="opentab('experiance')">Experiance</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+
+
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Excel skills</span><br>designing your data </li>
+                        <li><span>Web developement</span><br>Web app development </li>
+                        <li><span>App developement</span><br>Building apps for android/mac  </li>
+                    </ul>
+                </div>
+
+
+
+                <div class="tab-contents" id="experiance">
+                    <ul>
+                        <li><span>2026 current</span><br>Creating Projects in vidhya bhavan college</li>
+                        <li><span>2025-2026</span><br>Leraning the Web app development </li>
+                        <li><span>2024-2025</span><br>Learning the excel & master it  </li>
+                    </ul>
+                </div>
+
+
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2020-2021</span><br>complete 10th from New English High School </li>
+                        <li><span>2022-2023</span><br>Complete 12th from Indira Gandhi college </li>
+                        <li><span>2025-2026</span><br>pursuing at Vidya Bhavan College </li>
+                    </ul>
+                </div>
+            
+
+
+            </div>
+        </div>
+    </div>
+   </div>
+
+<!-- -------------------Services--------------------- -->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut sunt optio quisquam voluptatem ex nostrum, tempora dolores ab? Accusantium temporibus incidunt aspernatur id ipsa, fugiat distinctio necessitatibus? Ipsam, obcaecati iure?</p>
+                <a href="#">learn more</a>
+           
+            </div>
+            <div>
+                <i class="fa-solid fa-laptop-code"></i>
+                <h2>UI design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut sunt optio quisquam voluptatem ex nostrum, tempora dolores ab? Accusantium temporibus incidunt aspernatur id ipsa, fugiat distinctio necessitatibus? Ipsam, obcaecati iure?</p>
+                <a href="#">learn more</a>
+           
+            </div>
+            <div>
+              <i class="fa-solid fa-file-excel"></i>
+                <h2>Excel Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut sunt optio quisquam voluptatem ex nostrum, tempora dolores ab? Accusantium temporibus incidunt aspernatur id ipsa, fugiat distinctio necessitatibus? Ipsam, obcaecati iure?</p>
+                <a href="#">learn more</a>
+           
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ------------------portfolio--------------------- -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Works</h1>
+        <div class="work-list">
+
+        <div class="work">
+            <img src="work web.jpeg" alt="">
+            <div class="layer">
+                <h3>Web developement</h3>
+                <p>The web developementare very important for social media users</p>
+            </div>
+        </div>
+        <div class="work">
+            <img src="work app.jpeg" alt="">
+            <div class="layer">
+                <h3>App developement</h3>
+                <p>the App developement are very essential for the create a work easy</p>
+            </div>
+        </div>
+        <div class="work">
+            <img src="work excel.jpeg" alt="">
+            <div class="layer">
+                <h3>Excel use</h3>
+                <p>We use a excel for the mainating a business data also maintain data</p>
+            </div>
+        </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+   <script>
+
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents= document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+for(tablink of tablinks){
+    tablink.classList.remove("active-link");
+}
+for(tabcontent of tabcontents){
+    tabcontent.classList.remove("active-tab");
+}
+event.currentTarget.classList.add("active-link");
+document.getElementById(tabname).classList.add("active-tab")
+}
+   </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
